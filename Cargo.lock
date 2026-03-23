@@ -29,9 +29,9 @@ dependencies = [
 
 [[package]]
 name = "astrid-sdk"
-version = "0.5.0"
+version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c9821352aa31c05c26b9d607e78df72419f06cc0f4020115be7ce625aa6c9bb3"
+checksum = "3ce0028fc5efbd232140799a0405f89143c574cf7cc020034c1eeb11fe5bdea8"
 dependencies = [
  "astrid-sdk-macros",
  "astrid-sys",
@@ -47,9 +47,9 @@ dependencies = [
 
 [[package]]
 name = "astrid-sdk-macros"
-version = "0.5.0"
+version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1b2d171e696ce4d790ea79a40462a27a68ad5fbed24909b7948c56deab09cf5e"
+checksum = "302b1c7f0c95cf1a2489f91a6705470ed80a27a8e0860ab68d6090c9dd3a770e"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -58,9 +58,9 @@ dependencies = [
 
 [[package]]
 name = "astrid-sys"
-version = "0.5.0"
+version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2beeea88ddeea55ae49f5c8580866a41bd0bb4f9e88e96ea0f5dd5fc347ca1aa"
+checksum = "3446daa45404425606474e0f86312dbaf936f6a9add6b782a7454a31930462a1"
 dependencies = [
  "extism-pdk",
 ]
