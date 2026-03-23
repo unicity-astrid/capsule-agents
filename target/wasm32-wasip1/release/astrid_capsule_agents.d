@@ -1,1 +1,0 @@
-/Users/joshuaj.bouw/dev/astrid.worktrees/agent1/capsules/astrid-capsule-agents/target/wasm32-wasip1/release/astrid_capsule_agents.wasm: /Users/joshuaj.bouw/dev/astrid.worktrees/agent1/capsules/astrid-capsule-agents/src/lib.rs
