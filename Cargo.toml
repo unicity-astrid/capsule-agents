@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 description = "Injects project instructions from AGENTS.md into the system prompt"
 license = "MIT OR Apache-2.0"
-authors = ["Astrid Core Team"]
+authors = ["Joshua J. Bouw <dev@joshuajbouw.com>", "Unicity Labs <info@unicity-labs.com>"]
 
 [lib]
 crate-type = ["cdylib"]
