@@ -10,12 +10,13 @@ authors = ["Joshua J. Bouw <dev@joshuajbouw.com>", "Unicity Labs <info@unicity-l
 crate-type = ["cdylib"]
 
 [dependencies]
-astrid-sdk = { version = "0.5.3", features = ["derive"] }
-extism-pdk = "1.4.1"
+astrid-sdk = { version = "0.6.0", features = ["derive"] }
 serde = "1.0"
 serde_json = "1.0"
 
 [profile.release]
-codegen-units = 1
+opt-level = "z"
 lto = true
+codegen-units = 1
 strip = true
+panic = "abort"
