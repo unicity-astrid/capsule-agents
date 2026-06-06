@@ -13,7 +13,10 @@ capabilities = { fs_read = ["cwd://"] }
 
 [capabilities]
 allow_prompt_injection = true
-ipc_publish = ["prompt_builder.v1.hook_response.*"]
+
+# Publish ACL: the [publish] keys are the only IPC-publish declaration.
+[publish]
+"prompt_builder.v1.hook_response.*" = { wit = "@unicity-astrid/wit/prompt/before-build-hook-response" }
 
 [env]
 # Project folder name — set by the distro, not prompted during onboarding.
